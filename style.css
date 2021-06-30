@@ -1,0 +1,76 @@
+
+
+.main_box{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+
+
+                        "dre amz apple adidas"
+                        "adidas apple amz dre"
+                        
+
+
+}
+
+
+#dre{
+grid-area: dre;
+
+}
+
+#amz{
+    grid-area: amz;
+    
+}
+
+#apple{
+    grid-area: apple;
+    
+}
+
+#dre{
+    grid-area: dre;
+    
+}
+
+.dre{
+
+margin: 10% 10% 10% 10%;    
+padding: 10% 10% 10% 10%;
+place-self: center;
+    
+}
+
+.amz{
+
+margin: 10% 10% 10% 10%;    
+padding: 10% 10% 10% 10%;
+place-self: center;
+
+
+        
+}
+
+ .apple{
+
+margin: 10% 10% 10% 10%;    
+padding: 10% 10% 10% 10%;
+place-self: center;
+    
+}
+
+.adidas{
+
+margin: 10% 10% 10% 10%;    
+padding: 10% 10% 10% 10%;
+place-self: center;
+        
+    }
+
+img{
+
+   width: 100%; 
+}
+
